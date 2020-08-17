@@ -68,9 +68,19 @@ include('Frontend_Nav.php');
 											<li class="list-inline-item"><i class='bx bxs-star-half' ></i></li>
 										</ul>
 										
-									<a href="#" class="addtocartBtn text-decoration-none">Add to Cart</a>
+									
+								<button href="#" class="addtocartBtn text-decoration-none" 			data-id="<?=$itid?>"
+									data-name="<?=$iname?>"
+									data-photo="<?=$iphoto?>"
+									data-discount="<?=$discount?>"
+									data-oprice="<?=$oprice?>"
+									data-codeno="<?=$codeno?>"
+									data-newprice="<?=$newprice?>"
 
-									</div>
+
+
+
+									>Add to Cart</button>
 
 
 					        	</div>
