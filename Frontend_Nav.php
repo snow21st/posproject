@@ -7,6 +7,7 @@ session_start();
 		<div class="row shadow-sm p-3 bg-white rounded d-flex align-items-center">
 			<!-- LOGO -->
 			<div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 order-1">
+				<a href="index.php">
 				<span class="d-xl-none d-lg-none d-md-inline d-sm-inline d-inline  p-1 navslidemenu">
 					<i class="icofont-navigation-menu"></i>
 				</span>
@@ -15,6 +16,7 @@ session_start();
 				<img src="logo/logo_med.jpg" class="img-fluid d-xl-none d-lg-none d-md-inline d-sm-none d-none" style="width: 100px">
 
 				<img src="logo/logo.jpg" class="img-fluid d-xl-none d-lg-none d-md-none d-sm-inline d-inline pl-2" style="width: 30px">
+				</a>
 			</div>
 			
 			<!-- Search Bar -->
@@ -204,12 +206,12 @@ session_start();
 
           			</a>
           			<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-            			<a class="dropdown-item" href="#">
-            				Help Center
+            			<a class="dropdown-item" href="help.php">
+            				Feedback
             			</a>
-            			<div class="dropdown-divider"></div>
+            		<!-- 	<div class="dropdown-divider"></div> -->
             			
-            			<a class="dropdown-item" href="#">
+            			<!-- <a class="dropdown-item" href="#">
             				Order
             			</a>
             			<div class="dropdown-divider"></div>
@@ -226,7 +228,7 @@ session_start();
 
             			<a class="dropdown-item" href="#">
             				Returns & Refunds
-            			</a>
+            			</a> -->
 
           			</div>
         		</div>
@@ -238,7 +240,9 @@ session_start();
 	<div id="mySidebar" class="sidebar">
 		<div class="row">
 			<div class="col-10">
+				<a href="index.php">
 	  			<img src="logo/logo_med_trans.png" class="img-fluid" style="width: 100px">
+	  			</a>
 			</div>
 			<div class="col-2">
 				<a href="javascript:void(0)" class="closebtn text-decoration-none">
@@ -301,7 +305,7 @@ session_start();
 
 			<hr>
 
-		  	<a href="#"> Poromotion </a>
+		  	<a href="promotion.php"> Promotion </a>
 			<hr>
 
 		  	<a data-toggle="collapse" href="#brand" role="button" aria-expanded="false" aria-controls="brand">
@@ -336,11 +340,11 @@ session_start();
 		  	</a>
 
 			<div class="collapse sidebardropdown_container_category mt-3" id="service">
-			    <a href="" class="py-2"> Help Center </a>
-			    <a href="" class="py-2"> Order </a>
+			    <a href="help.php" class="py-2"> Feedback </a>
+			  <!--   <a href="" class="py-2"> Order </a>
 			    <a href="" class="py-2"> Shipping & Delivery </a>
 			    <a href="" class="py-2"> Payment </a>
-			    <a href="" class="py-2"> Returns & Refunds </a>
+			    <a href="" class="py-2"> Returns & Refunds </a> -->
 			</div>
 			<hr>
 
